@@ -92,15 +92,19 @@
 )
 
 #v(10pt)
+#columns(2)[
 Full-stack software engineer with experience in web technologies, embedded
 systems, and systems programming. 1 year of professional software development
 experience & 5 years of experience in open source. 3 years of experience in
 Rust. Leads multiple UNL Aerospace Club teams in software and embedded
-systems development.
+systems development, with electrical engineering components.
+
+#colbreak()
 
 = Education
 == University of Nebraska–Lincoln
 - Bachelor of Computer Science (2027)
+]
 
 = Experience
 #columns(2)[
@@ -216,3 +220,4 @@ designed to be Web Assembly compatible. Designed to eventually replace
 
 ]
 
+#sys.inputs.keys()
