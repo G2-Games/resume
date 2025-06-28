@@ -1,17 +1,21 @@
-// == TODO LIST PROBABLY ==
-// President of Ham Radio Club
-
 #set document(
     title: "Grant Gardner - Resume",
     author: "Grant Gardner",
     date: auto,
 )
 
-#let first_page_footer = if "GIT_VERSION" in sys.inputs.keys() {
-    let (GIT_VERSION: g) = sys.inputs
-    underline()[#place(top + left)[Document Version v#g]]
+#let first_page_footer = if "GIT_TAG_VERSION" in sys.inputs.keys() {
+    let (
+        GIT_TAG_VERSION: git_tag_version,
+        GIT_TAG_DATE: git_tag_date,
+        GIT_HASH: git_hash
+    ) = sys.inputs
     place(top + center)[1]
-    place(top + right)[#datetime.today().display()]
+
+    text(weight: "bold")[
+        #place(top + left)[v#git_tag_version - #git_hash (#git_tag_date)]
+        #place(top + right)[#datetime.today().display()]
+    ]
 } else {
     place(top + center)[1]
 }
@@ -106,7 +110,7 @@
     ]]
 )
 
-#v(10pt)
+#v(5mm)
 #columns(2)[
 Full-stack software engineer with experience in web technologies, embedded
 systems, and systems programming. 1 year of professional software development
