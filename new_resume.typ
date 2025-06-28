@@ -19,8 +19,8 @@
 )
 #set text(
     font: "Inter",
-    slashed-zero: true,
-    number-width: "tabular",
+    slashed-zero: false,
+    number-width: "proportional",
     hyphenate: auto,
 )
 #show link: l => {
@@ -66,7 +66,7 @@
 // Header
 #grid(columns: (auto, auto), rows: auto,
     align(center + horizon)[#rect(fill: white, outset: 5pt)[
-        #text(size: 2em, weight: "bold")[
+        #text(font: "Lexend", size: 2em, weight: "bold")[
             Grant Gardner
         ]
     ]],
@@ -83,26 +83,24 @@
         #link("https://github.com/G2-Games/")[\@G2-Games]
 
         #box(height: 2em)[
-            #align(horizon)[
-                #link("https://g2games.dev")[Website] - https://g2games.dev
+            #align(left + horizon)[
+                Website - #link("https://g2games.dev/")[g2games.dev]\
+                LinkedIn - #link("https://www.linkedin.com/in/g2games")[\@g2games]
             ]
         ]
     ]]
 )
 
 #v(10pt)
-#columns(2)[
 Full-stack software engineer with experience in web technologies, embedded
 systems, and systems programming. 1 year of professional software development
 experience & 5 years of experience in open source. 3 years of experience in
-Rust. Lead in multiple UNL Aerospace Club teams.
-
-#colbreak()
+Rust. Leads multiple UNL Aerospace Club teams in software and embedded
+systems development.
 
 = Education
 == University of Nebraska–Lincoln
 - Bachelor of Computer Science (2027)
-]
 
 = Experience
 #columns(2)[
@@ -110,26 +108,28 @@ Rust. Lead in multiple UNL Aerospace Club teams.
 Integrating high-bandwidth long range radio modules. Additionally created
 programs for support of imaging systems.
 
-== UNL Rocketry Lead #text(size: 11pt, weight: 500)[(2024 - 2025)]
-Programming lead for the University of Nebraska–Lincoln Aerospace club, created
-and worked on multiple payloads leading a development team which competed at the
-IREC.
-
-#colbreak()
+== President of UNL Amateur Radio Club #text(size: 11pt, weight: 500)[(2024 - Ongoing)]
+Leads activities pertaining to the operations of the UNL Amateur Radio Club. Participated in Fram2Ham.
 
 == UNL Rocket Propulsion Group Lead #text(size: 11pt, weight: 500)[(2024 - Ongoing)]
 Led the electrical and programming team in creating systems for safe rocket
 motor ignition and testing equipment
 
+#colbreak()
+
+== UNL Rocketry Lead #text(size: 11pt, weight: 500)[(2024 - 2025)]
+Programming lead for the University of Nebraska–Lincoln Aerospace club, created
+and worked on multiple payloads leading a development team which competed at the
+IREC.
 
 == Lab Assistant #text(size: 11pt, weight: 500)[(2023 - 2024)]
 Data entry of a backlog of 50 years of specimen information into a digital
 database for preservation.
 ]
 
+#line(length: 100%, stroke: 1pt)
 
-= Skills
-== Programming
+== Programming Skills
 #columns(3)[
     - #columns(2)[Rust #colbreak() (skilled)]
     - #columns(2)[Python #colbreak() (skilled)]
@@ -146,6 +146,9 @@ database for preservation.
 
 == Technical Skills
 #columns(2)[
+- Experienced with Git and other VCS
+    - Highly active contributor on open source repositories
+    - Experience leading teams on open-source and proprietary projects
 - Experience reverse engineering software
     - Ghidra, Cutter, GDB
 - Experience in embedded systems
@@ -182,7 +185,7 @@ TODO: Write something about Rocketry here
 
 = Projects
 #columns(1)[
-== #link("https://github.com/G2-Games/cross-usb")[Confetti-Box]
+== #link("https://c.g2games.dev")[Confetti-Box]
 A simple file sharing website for storing large files temporarily. It utilizes
 the #link("https://rocket.rs/")[Rocket] web framework along with a simple REST
 API and modern web technologies like Websockets.

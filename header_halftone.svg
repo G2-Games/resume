@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="1.963339"
-     inkscape:cx="744.39514"
-     inkscape:cy="111.29"
+     inkscape:zoom="0.40484862"
+     inkscape:cx="122.26792"
+     inkscape:cy="715.0821"
      inkscape:window-width="1463"
      inkscape:window-height="834"
      inkscape:window-x="0"
@@ -4318,7 +4318,7 @@
          style="fill:#000000" />
     </g>
     <rect
-       style="fill:#ff6600;stroke:none;stroke-width:1.1;stroke-linecap:round;paint-order:stroke fill markers"
+       style="display:none;fill:#ff6600;stroke:none;stroke-width:1.1;stroke-linecap:round;paint-order:stroke fill markers"
        id="rect2718"
        width="56.587849"
        height="55.454895"
