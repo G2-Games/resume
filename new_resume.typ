@@ -41,6 +41,7 @@
     slashed-zero: false,
     number-width: "proportional",
     hyphenate: auto,
+    features: ("cv08": 1)
 )
 #show link: l => {
     text(blue)[
@@ -50,6 +51,7 @@
 #set par(
     justify: true,
     linebreaks: "optimized",
+    spacing: 0.5em,
 )
 #show heading.where(level: 1): h => {
     v(5pt)
@@ -84,14 +86,16 @@
 
 // Header
 #grid(columns: (auto, auto), gutter: 3cm, rows: auto,
-    align(center + horizon)[#rect(fill: white, outset: 5pt)[
-        #text(font: "Lexend", size: 2em, weight: "bold")[
+    align(center + horizon)[#rect(fill: white, outset: 6pt)[
+        #text(font: "Lexend", fill: rgb("#f75c2f"), size: 2em, weight: "bold")[
             Grant Gardner
         ]
     ]],
-    align(center)[#columns(2)[
+    align(center)[#rect(fill: white, outset: 5pt)[#columns(2)[
         Email:\
         #link("mailto:ke0bhogsg@gmail.com")[ke0bhogsg\@gmail.com]
+
+        #v(5pt)
 
         Telephone:\
         #link("tel:402-430-5445")[402-430-5445]
@@ -101,13 +105,15 @@
         Github:\
         #link("https://github.com/G2-Games/")[\@G2-Games]
 
+        #v(5pt)
+
         #box(height: 2em)[
             #align(left + horizon)[
                 Website - #link("https://g2games.dev/")[g2games.dev]\
                 LinkedIn - #link("https://www.linkedin.com/in/g2games")[\@g2games]
             ]
         ]
-    ]]
+    ]]]
 )
 
 #v(5mm)
@@ -123,6 +129,8 @@ systems development, with electrical engineering components.
 = Education
 == University of Nebraska–Lincoln
 - Bachelor of Computer Science (2027)
+== Lincoln Southwest High School
+- High School Diploma (2023)
 ]
 
 = Experience
