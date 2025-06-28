@@ -83,7 +83,7 @@
 }
 
 // Header
-#grid(columns: (auto, auto), rows: auto,
+#grid(columns: (auto, auto), gutter: 3cm, rows: auto,
     align(center + horizon)[#rect(fill: white, outset: 5pt)[
         #text(font: "Lexend", size: 2em, weight: "bold")[
             Grant Gardner
