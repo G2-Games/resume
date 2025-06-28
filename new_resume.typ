@@ -6,6 +6,16 @@
     author: "Grant Gardner",
     date: auto,
 )
+
+#let first_page_footer = if "GIT_VERSION" in sys.inputs.keys() {
+    let (GIT_VERSION: g) = sys.inputs
+    underline()[#place(top + left)[Document Version v#g]]
+    place(top + center)[1]
+    place(top + right)[#datetime.today().display()]
+} else {
+    place(top + center)[1]
+}
+
 #set page(
     numbering: "1",
     margin: 1.5cm,
@@ -15,7 +25,12 @@
             top + left,
             image("header_halftone.svg"),
         )
-    ]}
+    ]},
+    footer: context if(counter(page).get().at(0) == 1) [
+        #first_page_footer
+    ] else [
+        #align(center)[#counter(page).get().at(0)]
+    ],
 )
 #set text(
     font: "Inter",
@@ -219,5 +234,3 @@ designed to be Web Assembly compatible. Designed to eventually replace
 `netmd-js` in the backend of `Web Minidisc`.
 
 ]
-
-#sys.inputs.keys()

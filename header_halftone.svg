@@ -4318,7 +4318,7 @@
          style="fill:#000000" />
     </g>
     <rect
-       style="display:inline;fill:#ff6600;stroke:none;stroke-width:1.1;stroke-linecap:round;paint-order:stroke fill markers"
+       style="display:none;fill:#ff6600;stroke:none;stroke-width:1.1;stroke-linecap:round;paint-order:stroke fill markers"
        id="rect2718"
        width="56.587849"
        height="55.454895"
