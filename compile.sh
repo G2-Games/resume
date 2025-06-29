@@ -46,12 +46,16 @@ main() {
     if [[ $1 == "preview" ]]; then
         echo 'Previewing document using tinymist'
         tinymist preview "${DEFAULT_ARGS[@]}" "${INPUT_ARGS[@]}" new_resume.typ
+    elif [[ $1 == png ]]; then
+        echo 'Compiling document to PNG images using typst'
+        typst compile -f png "${DEFAULT_ARGS[@]}" "${INPUT_ARGS[@]}" \
+            --ignore-system-fonts new_resume.typ "page-{0p}.png"
     else
-        echo 'Compiling document using typst'
+        echo 'Compiling document to PDF using typst'
         typst compile "${DEFAULT_ARGS[@]}" "${INPUT_ARGS[@]}" \
             --ignore-system-fonts new_resume.typ
-        echo 'Done'
     fi
+    echo 'Done!'
 }
 
 main "$@"

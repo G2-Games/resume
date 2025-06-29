@@ -158,8 +158,6 @@ Data entry of a backlog of 50 years of specimen information into a digital
 database for preservation.
 ]
 
-#line(length: 100%, stroke: 1pt)
-
 == Programming Skills
 #columns(3)[
     - #columns(2)[Rust #colbreak() (skilled)]
