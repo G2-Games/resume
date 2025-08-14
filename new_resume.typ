@@ -102,14 +102,12 @@
 
         #colbreak()
 
-        Github:\
-        #link("https://github.com/G2-Games/")[\@G2-Games]
+        #v(1em)
 
-        #v(5pt)
-
-        #box(height: 2em)[
+        #box()[
             #align(left + horizon)[
                 Website - #link("https://g2games.dev/")[g2games.dev]\
+                Github - #link("https://github.com/G2-Games/")[\@G2-Games]\
                 LinkedIn - #link("https://www.linkedin.com/in/g2games")[\@g2games]
             ]
         ]
@@ -135,12 +133,13 @@ systems development, with electrical engineering components.
 
 = Experience
 #columns(2)[
-== Drone Amplified #text(size: 11pt, weight: 500)[(2024 - Ongoing)]
-Integrating high-bandwidth long range radio modules. Additionally created
-programs for support of imaging systems.
+== Drone Amplified #text(size: 11pt, weight: 500)[(Jul 2024 - Ongoing)]
+Working as an intern integrating high-bandwidth long range radio modules.
+Additionally created programs for supporting imaging systems.
 
 == President of UNL Amateur Radio Club #text(size: 11pt, weight: 500)[(2024 - Ongoing)]
-Leads activities pertaining to the operations of the UNL Amateur Radio Club. Participated in Fram2Ham.
+Leads activities pertaining to the operations of the UNL Amateur Radio Club.
+Participated in Fram2Ham in 2024.
 
 == UNL Rocket Propulsion Group Lead #text(size: 11pt, weight: 500)[(2024 - Ongoing)]
 Led the electrical and programming team in creating systems for safe rocket
@@ -151,7 +150,7 @@ motor ignition and testing equipment
 == UNL Rocketry Lead #text(size: 11pt, weight: 500)[(2024 - 2025)]
 Programming lead for the University of Nebraska–Lincoln Aerospace club, created
 and worked on multiple payloads leading a development team which competed at the
-IREC.
+IREC, streaming live video from an amateur rocket.
 
 == Lab Assistant #text(size: 11pt, weight: 500)[(2023 - 2024)]
 Data entry of a backlog of 50 years of specimen information into a digital
@@ -178,18 +177,20 @@ database for preservation.
 - Experienced with Git and other VCS
     - Highly active contributor on open source repositories
     - Experience leading teams on open-source and proprietary projects
-- Experience reverse engineering software
-    - Ghidra, Cutter, GDB
+- Experience reverse engineering & analyzing software
+    - Ghidra, Cutter, GDB, Valgrind
 - Experience in embedded systems
     - RP2040/RP2350, STM32, ESP32, ATMega
     - Rust, C, C++, MicroPython
 - Amateur Radio operator since 2014
-    - General class license holder (KE0BHO)
-    - Nebraska Young Ham of the Year Award
-- Web design and website creation
+    - Extra class license holder (KE0BHO)
+    - Recipient of the Nebraska Young Ham of the Year Award (2014)
+- Experienced with web design and website creation
 - Linux systems administration
     - Homelab
     - Personal website
+    - Worked professionally with Linux systems
+#colbreak()
 - Electrical Engineering hobbyist
     - Soldering
     - PCB design & EDA (KiCad)
@@ -204,16 +205,49 @@ database for preservation.
 
 = Clubs and Groups
 == Dangoware
-TODO: Write something about Dangoware here
+I co-founded Dangoware (https://dangoware.org), which is an independent software
+engineering and creative design group focused on open source projects, many of
+which are written in Rust and other rapidly developing new technologies.
+
 == UNL Aerospace Club
-TODO: Write something about the club here
+As both a lead and regular member in the University of Nebraska–Lincoln
+Aerospace Club I work with undergraduate teams of varying skill levels and
+backgrounds to compete in high-level intercollegiate competitions and
+research using novel technologies.
+
+#v(0.5em)
+
+My team lead positions include or have included:
+
 === Rocket Propulsion Group
-TODO: Write something about RPG here
+I served as the Mixing and Testing Lead in the UNL Aerospace Rocket Propulsion
+Group (UNL Aerospace RPG), co-leading mixing of experimental solid rocket
+propellant using club-designed procedures and safety checklists, along with
+ensuring safe practices were followed when conducting static-fire tests.
+
+#v(0.5em)
+
+I currently serve as the Electrical Lead, which means I am responsible for
+electronics, embedded systems, desktop, and human-machine interface (HMI)
+development, including the design of fail-safe software systems for testing
+energetics including rocket motors and ignition systems.
+
 === Rocketry
-TODO: Write something about Rocketry here
+I served as the Programming Lead in the UNL Husker Rocketry Club, which is the
+most successful college rocketry club in Nebraska. During my year as lead, the
+team was successful in returning for the first time in 2 years to the
+International Rocket Engineering Competition (IREC) and placing successfully.
+
+#v(0.5em)
+
+I led a team of software engineers developing both embedded and desktop
+applications for the support of a system to stream live video from an amateur
+rocket platform.
 
 = Projects
-#columns(1)[
+A few of my most interesting projects can be found here, but a more
+comprehensive list of projects can be found on my GitHub profile and website.
+
 == #link("https://c.g2games.dev")[Confetti-Box]
 A simple file sharing website for storing large files temporarily. It utilizes
 the #link("https://rocket.rs/")[Rocket] web framework along with a simple REST
@@ -240,7 +274,5 @@ writing.
 
 == #link("https://github.com/G2-Games/minidisc-rs")[minidisc-rs]
 A library for interfacing with Sony Minidisc devices written in pure rust and
-designed to be Web Assembly compatible. Designed to eventually replace
+designed to be Web Assembly compatible. It is designed to eventually replace
 `netmd-js` in the backend of `Web Minidisc`.
-
-]
