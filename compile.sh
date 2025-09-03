@@ -7,6 +7,7 @@
 # Set up the shared arguments for both commands
 DEFAULT_ARGS=(--font-path 'fonts/')
 INPUT_ARGS=()
+FILE_NAME="resume.typ"
 
 # Grab the latest tag from git
 get_latest_tag() {
@@ -45,15 +46,15 @@ main() {
 
     if [[ $1 == "preview" ]]; then
         echo 'Previewing document using tinymist'
-        tinymist preview "${DEFAULT_ARGS[@]}" "${INPUT_ARGS[@]}" new_resume.typ
+        tinymist preview "${DEFAULT_ARGS[@]}" "${INPUT_ARGS[@]}" $FILE_NAME
     elif [[ $1 == png ]]; then
         echo 'Compiling document to PNG images using typst'
         typst compile -f png "${DEFAULT_ARGS[@]}" "${INPUT_ARGS[@]}" \
-            --ignore-system-fonts new_resume.typ "page-{0p}.png"
+            --ignore-system-fonts $FILE_NAME "page-{0p}.png"
     else
         echo 'Compiling document to PDF using typst'
         typst compile "${DEFAULT_ARGS[@]}" "${INPUT_ARGS[@]}" \
-            --ignore-system-fonts new_resume.typ
+            --ignore-system-fonts $FILE_NAME
     fi
     echo 'Done!'
 }
