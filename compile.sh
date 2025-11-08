@@ -46,7 +46,7 @@ main() {
 
     if [[ $1 == "preview" ]]; then
         echo 'Previewing document using tinymist'
-        tinymist preview "${DEFAULT_ARGS[@]}" "${INPUT_ARGS[@]}" $FILE_NAME
+        tinymist preview --open "${DEFAULT_ARGS[@]}" "${INPUT_ARGS[@]}" $FILE_NAME
     elif [[ $1 == png ]]; then
         echo 'Compiling document to PNG images using typst'
         typst compile -f png "${DEFAULT_ARGS[@]}" "${INPUT_ARGS[@]}" \
