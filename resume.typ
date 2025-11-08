@@ -59,6 +59,9 @@
     v(-0.9em)
     line(length: 100%, stroke: 1pt)
 }
+#show heading.where(level: 2): set text(
+  size: 11pt,
+)
 
 #let LaTeX = {
   let A = (offset: (x: -0.33em, y: -0.3em), size: 0.7em)
@@ -115,46 +118,53 @@
 )
 
 #v(5mm)
-#columns(2)[
 Full-stack software engineer with experience in web technologies, embedded
 systems, and systems programming. 1 year of professional software development
 experience & 5 years of experience in open source. 3 years of experience in
 Rust. Leads multiple UNL Aerospace Club teams in software and embedded
 systems development, with electrical engineering components.
 
-#colbreak()
-
+#columns(2)[
 = Education
+#v(-0.4em)
 == University of Nebraska–Lincoln
 - Bachelor of Computer Science (2027)
-== Lincoln Southwest High School
-- High School Diploma (2023)
+
+#colbreak()
+= Relevant Projects
+- #link("https://github.com/G2-Games/cross-usb")[cross-usb] - Rust cross platform USB
+- #link("https://github.com/unl-rocketry/pololu_tic-rs")[pololu_tic-rs] - I#super()[2]C/USB stepper driver in Rust
 ]
 
-= Experience
+#v(-1.1em)
+
+= Relevant Experience
 #columns(2)[
 == Drone Amplified #text(size: 11pt, weight: 500)[(Jul 2024 - Ongoing)]
-Working as an intern integrating high-bandwidth long range radio modules.
-Additionally created programs for supporting imaging systems.
+#emph[Software Engineering Intern]
+- Integrating radio modules with drones to improve mission-critical firefighting abilities
+- Created programs to work with third-party imaging systems
+- Developing novel testing strategies for radio evaluation
 
-== President of UNL Amateur Radio Club #text(size: 11pt, weight: 500)[(2024 - Ongoing)]
-Leads activities pertaining to the operations of the UNL Amateur Radio Club.
-Participated in Fram2Ham in 2024.
-
-== UNL Rocket Propulsion Group Lead #text(size: 11pt, weight: 500)[(2024 - Ongoing)]
-Led the electrical and programming team in creating systems for safe rocket
-motor ignition and testing equipment
+== UNL Amateur Radio Club #text(size: 11pt, weight: 500)[(2024 - Ongoing)]
+#emph[President]
+- Restarted the club after it spent years dormant
+- Facilitating amateur radio at UNL
+- Lead day-to-day activities of over 30 members
+- Manages finances and club purchases
 
 #colbreak()
 
-== UNL Rocketry Lead #text(size: 11pt, weight: 500)[(2024 - 2025)]
-Programming lead for the University of Nebraska–Lincoln Aerospace club, created
-and worked on multiple payloads leading a development team which competed at the
-IREC, streaming live video from an amateur rocket.
+== UNL Rocket Propulsion Group #text(size: 11pt, weight: 500)[(2024 - Ongoing)]
+#emph[Electrical & Programming Lead]
+- Developing new equipment and software for monitoring motor firing
+- Analyzing data produced during tests to iterate on motor designs
 
-== Lab Assistant #text(size: 11pt, weight: 500)[(2023 - 2024)]
-Data entry of a backlog of 50 years of specimen information into a digital
-database for preservation.
+== UNL Husker Rocketry #text(size: 11pt, weight: 500)[(2024 - 2025)]
+#emph[Programming Lead]
+- Created multiple payloads in high-power amateur rockets
+- Led a development team of software and mechanical engineers
+- Software and hardware competed at the IREC streaming high-bitrate live video
 ]
 
 == Programming Skills
@@ -175,24 +185,20 @@ database for preservation.
 == Technical Skills
 #columns(2)[
 - Experienced with Git and other VCS
-    - Highly active contributor on open source repositories
-    - Experience leading teams on open-source and proprietary projects
-- Experience reverse engineering & analyzing software
+    - Consistent contributor to FOSS projects
+    - Open-source and proprietary projects
+- Experience reverse engineering software
     - Ghidra, Cutter, GDB, Valgrind
-- Experience in embedded systems
+- Experienced with embedded systems
     - RP2040/RP2350, STM32, ESP32, ATMega
-    - Rust, C, C++, MicroPython
+    - Embedded Rust, Embassy
 - Amateur Radio operator since 2014
     - Extra class license holder (KE0BHO)
-    - Recipient of the Nebraska Young Ham of the Year Award (2014)
-- Experienced with web design and website creation
+- Experienced web designer and creator
 - Linux systems administration
-    - Homelab
     - Personal website
-    - Worked professionally with Linux systems
-#colbreak()
+    - Working professionally with Linux systems
 - Electrical Engineering hobbyist
-    - Soldering
     - PCB design & EDA (KiCad)
 - Graphic design hobbyist
     - Logo for the #link("https://kate-editor.org/")[Kate text editor]:
@@ -200,7 +206,6 @@ database for preservation.
     - Logos for the UNL Aerospace Club for various purposes:
         #link("https://github.com/unl-rpg/branding")[Link 1,]
         #link("https://github.com/G2-Games/unl-aerospace-logos")[Link 2]
-    - Logos and icons for Dangoware.
 ]
 
 = Clubs and Groups
