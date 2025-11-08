@@ -198,12 +198,14 @@ systems development, with electrical engineering components.
 - Linux systems administration
     - Personal website
     - Working professionally with Linux systems
-- Electrical Engineering hobbyist
+- Electrical engineering
+    - Prototyping and design of electrical systems/assemblies
     - PCB design & EDA (KiCad)
+    - Skilled at soldering
 - Graphic design hobbyist
     - Logo for the #link("https://kate-editor.org/")[Kate text editor]:
         #link("https://kate-editor.org/post/2024/2024-06-08-kate-fun-logo/")[Link]
-    - Logos for the UNL Aerospace Club for various purposes:
+    - UNL Aerospace Club logos:
         #link("https://github.com/unl-rpg/branding")[Link 1,]
         #link("https://github.com/G2-Games/unl-aerospace-logos")[Link 2]
 ]
