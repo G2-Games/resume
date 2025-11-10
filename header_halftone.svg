@@ -35,12 +35,12 @@
      inkscape:zoom="1.2019841"
      inkscape:cx="185.94256"
      inkscape:cy="334.863"
-     inkscape:window-width="1009"
-     inkscape:window-height="834"
+     inkscape:window-width="2560"
+     inkscape:window-height="1360"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="g29990"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1"
      inkscape:antialias-rendering="true">
     <inkscape:page
        x="0"
@@ -13542,24 +13542,6 @@
          y="0"
          inkscape:tiled-clone-of="#path3"
          xlink:href="#path3"
-         transform="matrix(0.4588235,0,0,0.4588235,0.67373113,38.021868)"
-         fill="#8a8a8a"
-         stroke="#8a8a8a"
-         id="use7754" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.42745095,0,0,0.42745095,0.712788,40.550801)"
-         fill="#929292"
-         stroke="#929292"
-         id="use7755" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
          transform="matrix(0.94117647,0,0,0.94117647,2.5631074,0.07323164)"
          fill="#0f0f0f"
          stroke="#0f0f0f"
@@ -13690,24 +13672,6 @@
          fill="#878787"
          stroke="#878787"
          id="use7792" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.43529409,0,0,0.43529409,3.1928996,38.051161)"
-         fill="#909090"
-         stroke="#909090"
-         id="use7793" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.40392154,0,0,0.40392154,3.2319565,40.580093)"
-         fill="#989898"
-         stroke="#989898"
-         id="use7794" />
       <use
          x="0"
          y="0"
@@ -13848,24 +13812,6 @@
          y="0"
          inkscape:tiled-clone-of="#path3"
          xlink:href="#path3"
-         transform="matrix(0.40784311,0,0,0.40784311,5.7169501,38.085335)"
-         fill="#979797"
-         stroke="#979797"
-         id="use7832" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.37647057,0,0,0.37647057,5.756007,40.614268)"
-         fill="#9f9f9f"
-         stroke="#9f9f9f"
-         id="use7833" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
          transform="matrix(0.88627452,0,0,0.88627452,7.6112085,0.14158116)"
          fill="#1d1d1d"
          stroke="#1d1d1d"
@@ -13996,24 +13942,6 @@
          fill="#959595"
          stroke="#959595"
          id="use7869" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.38039213,0,0,0.38039213,8.2410007,38.11951)"
-         fill="#9e9e9e"
-         stroke="#9e9e9e"
-         id="use7870" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.34901959,0,0,0.34901959,8.2800576,40.648443)"
-         fill="#a6a6a6"
-         stroke="#a6a6a6"
-         id="use7871" />
       <use
          x="0"
          y="0"
@@ -14154,24 +14082,6 @@
          y="0"
          inkscape:tiled-clone-of="#path3"
          xlink:href="#path3"
-         transform="matrix(0.35294116,0,0,0.35294116,10.765051,38.153685)"
-         fill="#a5a5a5"
-         stroke="#a5a5a5"
-         id="use7907" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.32156861,0,0,0.32156861,10.804108,40.682618)"
-         fill="#adadad"
-         stroke="#adadad"
-         id="use7908" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
          transform="matrix(0.83137256,0,0,0.83137256,12.65931,0.20993069)"
          fill="#2b2b2b"
          stroke="#2b2b2b"
@@ -14302,24 +14212,6 @@
          fill="#a3a3a3"
          stroke="#a3a3a3"
          id="use7942" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.32549018,0,0,0.32549018,13.289102,38.18786)"
-         fill="#acacac"
-         stroke="#acacac"
-         id="use7943" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.29019606,0,0,0.29019606,13.333041,40.721675)"
-         fill="#b5b5b5"
-         stroke="#b5b5b5"
-         id="use7944" />
       <use
          x="0"
          y="0"
@@ -14460,24 +14352,6 @@
          y="0"
          inkscape:tiled-clone-of="#path3"
          xlink:href="#path3"
-         transform="matrix(0.2980392,0,0,0.2980392,15.813152,38.222035)"
-         fill="#b3b3b3"
-         stroke="#b3b3b3"
-         id="use7978" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.26666665,0,0,0.26666665,15.852209,40.750967)"
-         fill="#bbbbbb"
-         stroke="#bbbbbb"
-         id="use7979" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
          transform="matrix(0.7764706,0,0,0.7764706,17.707411,0.27828022)"
          fill="#393939"
          stroke="#393939"
@@ -14608,24 +14482,6 @@
          fill="#b1b1b1"
          stroke="#b1b1b1"
          id="use8012" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.27058822,0,0,0.27058822,18.337203,38.256209)"
-         fill="#bababa"
-         stroke="#bababa"
-         id="use8013" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.23921567,0,0,0.23921567,18.37626,40.785142)"
-         fill="#c2c2c2"
-         stroke="#c2c2c2"
-         id="use8014" />
       <use
          x="0"
          y="0"
@@ -14766,24 +14622,6 @@
          y="0"
          inkscape:tiled-clone-of="#path3"
          xlink:href="#path3"
-         transform="matrix(0.24313724,0,0,0.24313724,20.861253,38.290384)"
-         fill="#c1c1c1"
-         stroke="#c1c1c1"
-         id="use8047" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.21176469,0,0,0.21176469,20.90031,40.819317)"
-         fill="#c9c9c9"
-         stroke="#c9c9c9"
-         id="use8048" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
          transform="matrix(0.72156858,0,0,0.72156858,22.755512,0.34662982)"
          fill="#474747"
          stroke="#474747"
@@ -14914,24 +14752,6 @@
          fill="#bfbfbf"
          stroke="#bfbfbf"
          id="use8079" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.21568626,0,0,0.21568626,23.385304,38.324559)"
-         fill="#c8c8c8"
-         stroke="#c8c8c8"
-         id="use8080" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.18431371,0,0,0.18431371,23.424361,40.853491)"
-         fill="#d0d0d0"
-         stroke="#d0d0d0"
-         id="use8081" />
       <use
          x="0"
          y="0"
@@ -15072,24 +14892,6 @@
          y="0"
          inkscape:tiled-clone-of="#path3"
          xlink:href="#path3"
-         transform="matrix(0.18823528,0,0,0.18823528,25.909355,38.358734)"
-         fill="#cfcfcf"
-         stroke="#cfcfcf"
-         id="use8112" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.15686274,0,0,0.15686274,25.948411,40.887666)"
-         fill="#d7d7d7"
-         stroke="#d7d7d7"
-         id="use8113" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
          transform="matrix(0.67058825,0,0,0.67058825,27.798731,0.41009717)"
          fill="#545454"
          stroke="#545454"
@@ -15225,24 +15027,6 @@
          y="0"
          inkscape:tiled-clone-of="#path3"
          xlink:href="#path3"
-         transform="matrix(0.1607843,0,0,0.1607843,28.433405,38.392908)"
-         fill="#d6d6d6"
-         stroke="#d6d6d6"
-         id="use8143" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.12941176,0,0,0.12941176,28.472462,40.921841)"
-         fill="#dedede"
-         stroke="#dedede"
-         id="use8144" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
          transform="matrix(0.64313722,0,0,0.64313722,30.322782,0.444272)"
          fill="#5b5b5b"
          stroke="#5b5b5b"
@@ -15373,24 +15157,6 @@
          fill="#d4d4d4"
          stroke="#d4d4d4"
          id="use8173" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.13333333,0,0,0.13333333,30.957456,38.427083)"
-         fill="#dddddd"
-         stroke="#dddddd"
-         id="use8174" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.10196078,0,0,0.10196078,30.996513,40.956016)"
-         fill="#e5e5e5"
-         stroke="#e5e5e5"
-         id="use8175" />
       <use
          x="0"
          y="0"
@@ -15540,26 +15306,6 @@
          fill="#dbdbdb"
          stroke="#dbdbdb"
          id="use8203"
-         style="fill:#000000" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.10588235,0,0,0.10588235,33.481506,38.461258)"
-         fill="#e4e4e4"
-         stroke="#e4e4e4"
-         id="use8204"
-         style="fill:#000000" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.0745098,0,0,0.0745098,33.520563,40.990191)"
-         fill="#ececec"
-         stroke="#ececec"
-         id="use8205"
          style="fill:#000000" />
       <use
          x="0"
@@ -15716,26 +15462,6 @@
          y="0"
          inkscape:tiled-clone-of="#path3"
          xlink:href="#path3"
-         transform="matrix(0.07843137,0,0,0.07843137,36.005557,38.495433)"
-         fill="#ebebeb"
-         stroke="#ebebeb"
-         id="use8233"
-         style="fill:#000000" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.04705882,0,0,0.04705882,36.044614,41.024365)"
-         fill="#f3f3f3"
-         stroke="#f3f3f3"
-         id="use8234"
-         style="fill:#000000" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
          transform="matrix(0.55686271,0,0,0.55686271,37.899815,0.5516784)"
          fill="#717171"
          stroke="#717171"
@@ -15880,26 +15606,6 @@
          fill="#e9e9e9"
          stroke="#e9e9e9"
          id="use8260"
-         style="fill:#000000" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.05098039,0,0,0.05098039,38.529607,38.529607)"
-         fill="#f2f2f2"
-         stroke="#f2f2f2"
-         id="use8261"
-         style="fill:#000000" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.01960784,0,0,0.01960784,38.568664,41.05854)"
-         fill="#fafafa"
-         stroke="#fafafa"
-         id="use8262"
          style="fill:#000000" />
       <use
          x="0"
@@ -16056,26 +15762,6 @@
          y="0"
          inkscape:tiled-clone-of="#path3"
          xlink:href="#path3"
-         transform="matrix(0.02745098,0,0,0.02745098,41.048776,38.5589)"
-         fill="#f8f8f8"
-         stroke="#f8f8f8"
-         id="use8288"
-         style="fill:#000000" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.00392157,0,0,0.00392157,41.078068,41.078068)"
-         fill="#fefefe"
-         stroke="#fefefe"
-         id="use8289"
-         style="fill:#000000" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
          transform="matrix(0.50588238,0,0,0.50588238,42.943034,0.61514575)"
          fill="#7e7e7e"
          stroke="#7e7e7e"
@@ -16220,16 +15906,6 @@
          fill="#f7f7f7"
          stroke="#f7f7f7"
          id="use8314"
-         style="fill:#000000" />
-      <use
-         x="0"
-         y="0"
-         inkscape:tiled-clone-of="#path3"
-         xlink:href="#path3"
-         transform="matrix(0.00392157,0,0,0.00392157,43.567944,38.588193)"
-         fill="#fefefe"
-         stroke="#fefefe"
-         id="use8315"
          style="fill:#000000" />
       <use
          x="0"

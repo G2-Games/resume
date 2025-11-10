@@ -22,7 +22,10 @@
 
 #set page(
     numbering: "1",
-    margin: 1.5cm,
+    margin: (
+        top: 1cm,
+        rest: 1.5cm,
+    ),
     paper: "us-letter",
     background: context { if(counter(page).get().at(0)== 1) [
         #place(
@@ -44,9 +47,7 @@
     features: ("cv08": 1)
 )
 #show link: l => {
-    text(blue)[
-        #underline()[#l]
-    ]
+    text(blue)[#underline()[#l]]
 }
 #set par(
     justify: true,
@@ -88,10 +89,10 @@
 }
 
 // Header
-#grid(columns: (auto, auto), gutter: 3cm, rows: auto,
+#grid(columns: (auto, auto), gutter: 2cm, rows: auto,
     align(center + horizon)[#rect(fill: white, outset: 6pt)[
         #text(font: "Lexend", fill: rgb("#f75c2f"), size: 2em, weight: "bold")[
-            Grant Gardner
+            Grant S. Gardner
         ]
     ]],
     align(center)[#rect(fill: white, outset: 5pt)[#columns(2)[
@@ -109,9 +110,18 @@
 
         #box()[
             #align(left + horizon)[
-                Website - #link("https://g2games.dev/")[g2games.dev]\
-                Github - #link("https://github.com/G2-Games/")[\@G2-Games]\
-                LinkedIn - #link("https://www.linkedin.com/in/g2games")[\@g2games]
+                #grid(columns: (auto, auto), gutter: 1em,
+                    [Website:],
+                    [#h(1fr) #link("https://g2games.dev/")[g2games.dev]]
+                )
+                #grid(columns: (auto, auto), gutter: 1em,
+                    [Github:],
+                    [#h(1fr) #link("https://github.com/G2-Games/")[\@G2-Games]]
+                )
+                #grid(columns: (auto, auto), gutter: 1em,
+                    [LinkedIn:],
+                    [#h(1fr) #link("https://www.linkedin.com/in/g2games")[\@g2games]]
+                )
             ]
         ]
     ]]]
@@ -119,21 +129,23 @@
 
 #v(5mm)
 Full-stack software engineer with experience in web technologies, embedded
-systems, and systems programming. 1 year of professional software development
+systems, and systems programming. 1.5 years of professional software development
 experience & 5 years of experience in open source. 3 years of experience in
 Rust. Leads multiple UNL Aerospace Club teams in software and embedded
-systems development, with electrical engineering components.
+systems development with electrical engineering components.
 
 #columns(2)[
 = Education
 #v(-0.4em)
-== University of Nebraska–Lincoln
+== University of Nebraska–Lincoln (UNL)
 - Bachelor of Computer Science (2027)
+- Minor in History
 
 #colbreak()
 = Relevant Projects
-- #link("https://github.com/G2-Games/cross-usb")[cross-usb] - Rust cross platform USB
-- #link("https://github.com/unl-rocketry/pololu_tic-rs")[pololu_tic-rs] - I#super()[2]C/USB stepper driver in Rust
+- #link("https://github.com/G2-Games/cross-usb")[cross-usb] - Rust cross platform USB driver
+- #link("https://github.com/unl-rocketry/pololu_tic-rs")[pololu_tic-rs] - I#super[2]C/USB stepper driver in Rust
+- #link("https://github.com/unl-rocketry/archer-embedded")[ARCHER] - ESP32 2-axis parabolic dish pointer
 ]
 
 #v(-1.1em)
@@ -144,7 +156,7 @@ systems development, with electrical engineering components.
 #emph[Software Engineering Intern]
 - Integrating radio modules with drones to improve mission-critical firefighting abilities
 - Created programs to work with third-party imaging systems
-- Developing novel testing strategies for radio evaluation
+- Developing novel testing strategies for radio evaluation using UDP/TCP network traffic
 
 == UNL Amateur Radio Club #text(size: 11pt, weight: 500)[(2024 - Ongoing)]
 #emph[President]
@@ -164,30 +176,34 @@ systems development, with electrical engineering components.
 #emph[Programming Lead]
 - Created multiple payloads in high-power amateur rockets
 - Led a development team of software and mechanical engineers
-- Software and hardware competed at the IREC streaming high-bitrate live video
+- Software and hardware competed at the IREC streaming high-bitrate live video over UDP
 ]
-
+#v(0.2em)
+#line(length: 100%)
+#v(-0.6em)
 == Programming Skills
 #columns(3)[
-    - #columns(2)[Rust #colbreak() (skilled)]
-    - #columns(2)[Python #colbreak() (skilled)]
-    - C/C++ #h(10pt) (intermediate)
+    Rust (skilled)\
+    Bash/Zsh (skilled)\
+    Java/TypeScript (skilled)\
 #colbreak()
-    - #columns(2)[HTML #colbreak() (skilled)]
-    - #columns(2)[CSS #colbreak() (skilled)]
-    - #columns(2)[Java #colbreak() (beginner)]
+    Python (skilled)\
+    HTML (skilled)\
+    Java (beginner)\
 #colbreak()
-    - #columns(2)[Bash/Zsh #colbreak() (skilled)]
-    - Java/TypeScript (skilled)
-    - #LaTeX/#typst (intermediate)
+    C/C++ (intermediate)\
+    CSS (skilled)\
+    #LaTeX/#typst (intermediate)\
 ]
-
+#v(0.2em)
+#line(length: 100%)
+#v(-0.6em)
 == Technical Skills
 #columns(2)[
 - Experienced with Git and other VCS
     - Consistent contributor to FOSS projects
     - Open-source and proprietary projects
-- Experience reverse engineering software
+- Experience in reverse engineering software
     - Ghidra, Cutter, GDB, Valgrind
 - Experienced with embedded systems
     - RP2040/RP2350, STM32, ESP32, ATMega
@@ -195,9 +211,9 @@ systems development, with electrical engineering components.
 - Amateur Radio operator since 2014
     - Extra class license holder (KE0BHO)
 - Experienced web designer and creator
-- Linux systems administration
-    - Personal website
-    - Working professionally with Linux systems
+- Linux system management and administration
+    - Self-hosted personal website
+    - Working professionally with Linux SBCs
 - Electrical engineering
     - Prototyping and design of electrical systems/assemblies
     - PCB design & EDA (KiCad)
@@ -210,36 +226,60 @@ systems development, with electrical engineering components.
         #link("https://github.com/G2-Games/unl-aerospace-logos")[Link 2]
 ]
 
-= Clubs and Groups
-== Dangoware
-I co-founded Dangoware (https://dangoware.org), which is an independent software
-engineering and creative design group focused on open source projects, many of
-which are written in Rust and other rapidly developing new technologies.
+= Experience
+== Drone Amplified
+#emph[Software Engineering Intern]
+#v(0.5em)
+As a software engineering intern at #link("https://droneamplified.com/")[Drone Amplified],
+I work on the testing of radio modules for integration into drone platforms. I have developed
+novel software for performing radio reliability testing. I work extensively with TCP, UDP, and
+other IP technologies in my day-to-day work. I have additionally created software for
+interacting with 3rd-party imaging systems to facilitate ease of use.
+
+== UNL Amateur Radio Club
+#emph[President]
+
+#v(0.5em)
+
+As the current president of the UNL Amateur Radio Club (UNLARC), I restarted the
+club from the ground up after it sat dormant for many years. I handle the day-to-day
+activities of the club, which has a roster of over 30 members. The roster includes
+both students and faculty, along with members not affiliated with the University.
+I also manage, alongside the rest of my officer team, the club budget, obtaining over
+\$2,700 in funding from the University this semester alone.
 
 == UNL Aerospace Club
 As both a lead and regular member in the University of Nebraska–Lincoln
-Aerospace Club I work with undergraduate teams of varying skill levels and
-backgrounds to compete in high-level intercollegiate competitions and
-research using novel technologies.
+Aerospace Club, I work with undergraduate teams of varying skill levels and
+backgrounds. I facilitate competing in high-level intercollegiate competitions and
+research projects exploring novel technologies.
 
 #v(0.5em)
 
 My team lead positions include or have included:
 
-=== Rocket Propulsion Group
-I served as the Mixing and Testing Lead in the UNL Aerospace Rocket Propulsion
-Group (UNL Aerospace RPG), co-leading mixing of experimental solid rocket
-propellant using club-designed procedures and safety checklists, along with
-ensuring safe practices were followed when conducting static-fire tests.
+=== #text(size: 10pt)[UNL Rocket Propulsion Group]
+#emph[Electrical & Programming Lead]
 
 #v(0.5em)
 
-I currently serve as the Electrical Lead, which means I am responsible for
+I currently serve as the Electrical & Programming Lead, which means I am responsible for
 electronics, embedded systems, desktop, and human-machine interface (HMI)
 development, including the design of fail-safe software systems for testing
 energetics including rocket motors and ignition systems.
 
-=== Rocketry
+#v(0.5em)
+
+Additionally, I served as the Mixing and Testing Lead in the UNL Aerospace Rocket Propulsion
+Group (UNL Aerospace RPG), co-leading mixing of experimental solid rocket
+propellant using club-designed procedures and safety checklists, while also
+ensuring safe practices were followed when conducting static-fire tests.
+
+=== #text(size: 10pt)[UNL Husker Rocketry]
+#emph[Programming Lead]
+
+#v(0.5em)
+
 I served as the Programming Lead in the UNL Husker Rocketry Club, which is the
 most successful college rocketry club in Nebraska. During my year as lead, the
 team was successful in returning for the first time in 2 years to the
@@ -249,16 +289,37 @@ International Rocket Engineering Competition (IREC) and placing successfully.
 
 I led a team of software engineers developing both embedded and desktop
 applications for the support of a system to stream live video from an amateur
-rocket platform.
+rocket platform. The system utilized IP-based high-bandwidth 2.4GHz radios from
+Taisync, whom I obtained a team sponsorship from.
+
+== Dangoware
+#emph[Founder]
+#v(0.5em)
+I co-founded Dangoware (https://dangoware.org), which is an independent software
+engineering and creative design group focused on open source projects, many of
+which are written in Rust and other rapidly developing new technologies.
+
+// PAGEBREAK SHOULD GO HERE
 
 = Projects
 A few of my most interesting projects can be found here, but a more
 comprehensive list of projects can be found on my GitHub profile and website.
 
+== #link("https://github.com/unl-rocketry/archer-embedded")[ARCHER]
+A 2-axis parabolic radio dish pointing system, controlled via an ESP32 and written in
+Rust using Embassy for high performance multitasking. Additionally required the writing
+of multiple different I#super[2]C, SPI, and USB drivers for the #link("https://github.com/unl-rocketry/pololu_tic-rs")[Pololu TIC] stepper motor controller, and modified the #link("https://github.com/eldruin/mma8x5x-rs/pull/4")[MMA8653] Rust driver to support the latest version of Embedded-HAL.
+The user interface was written in Python using TKinter for rapid development.
+
+== #link("https://github.com/unl-rocketry/arowss")[AROWSS]
+An efficient yet high performance async and concurrent sensor, video streaming, and command platform
+written for linux on the Raspberry Pi 4 using Rust and Tokio. Robust, fault tolerant, and flight
+proven at the IREC 2025.
+
 == #link("https://c.g2games.dev")[Confetti-Box]
-A simple file sharing website for storing large files temporarily. It utilizes
-the #link("https://rocket.rs/")[Rocket] web framework along with a simple REST
-API and modern web technologies like Websockets.
+A simple file sharing website for storing and sharing large files temporarily.
+It utilizes the #link("https://rocket.rs/")[Rocket] web framework along with a
+simple REST API and modern web technologies like Websockets.
 
 == #link("https://github.com/G2-Games/cross-usb")[cross-usb]
 A Rust library for seamless USB support across native platforms and browsers
