@@ -130,8 +130,8 @@
 #v(5mm)
 Full-stack software engineer with experience in web technologies, embedded
 systems, and systems programming. 1.5 years of professional software development
-experience & 5 years of experience in open source. 3 years of experience in
-Rust. Leads multiple UNL Aerospace Club teams in software and embedded
+experience & more than 5 years of experience in open source. Over 3 years of experience in
+Rust. Leads 2 UNL Aerospace Club teams in software and embedded
 systems development with electrical engineering components.
 
 #columns(2)[
@@ -150,33 +150,34 @@ systems development with electrical engineering components.
 
 #v(-1.1em)
 
-= Relevant Experience
+= Experience
 #columns(2)[
 == Drone Amplified #text(size: 11pt, weight: 500)[(Jul 2024 - Ongoing)]
 #emph[Software Engineering Intern]
-- Integrating radio modules with drones to improve mission-critical firefighting abilities
-- Created programs to work with third-party imaging systems
-- Developing novel testing strategies for radio evaluation using UDP/TCP network traffic
+- Integrating 4 radio modules with drones to improve mission-critical firefighting abilities
+- Creating programs to work with third-party imaging systems
+- Developing novel testing strategies for radio evaluation using UDP & TCP network traffic
 
 == UNL Amateur Radio Club #text(size: 11pt, weight: 500)[(2024 - Ongoing)]
 #emph[President]
-- Restarted the club after it spent years dormant
-- Facilitating amateur radio at UNL
-- Lead day-to-day activities of over 30 members
-- Manages finances and club purchases
+- Restarted the club after 5 years of inactivity
+- Largest club facilitating amateur radio at UNL
+- Leading activities of over 30 members
 
 #colbreak()
 
 == UNL Rocket Propulsion Group #text(size: 11pt, weight: 500)[(2024 - Ongoing)]
 #emph[Electrical & Programming Lead]
-- Developing new equipment and software for monitoring motor firing
+- Developing new equipment and software in Rust for monitoring motor firing
 - Analyzing data produced during tests to iterate on motor designs
 
 == UNL Husker Rocketry #text(size: 11pt, weight: 500)[(2024 - 2025)]
 #emph[Programming Lead]
-- Created multiple payloads in high-power amateur rockets
-- Led a development team of software and mechanical engineers
-- Software and hardware competed at the IREC streaming high-bitrate live video over UDP
+- Created 3 payloads in high-power rockets
+- Led a team of 7 software engineers
+- Worked with flight systems and avionics
+- Software competed at IREC with UDP video
+- Testing with HITL and HOOTL dummy devices
 ]
 #v(0.2em)
 #line(length: 100%)
@@ -185,7 +186,7 @@ systems development with electrical engineering components.
 #columns(3)[
     Rust (skilled)\
     Bash/Zsh (skilled)\
-    Java/TypeScript (skilled)\
+    JavaScript/TypeScript (skilled)\
 #colbreak()
     Python (skilled)\
     HTML (skilled)\
@@ -200,12 +201,14 @@ systems development with electrical engineering components.
 #v(-0.6em)
 == Technical Skills
 #columns(2)[
-- Experienced with Git and other VCS
+- Experienced with Git
     - Consistent contributor to FOSS projects
-    - Open-source and proprietary projects
-- Experience in reverse engineering software
-    - Ghidra, Cutter, GDB, Valgrind
-- Experienced with embedded systems
+    - Involved in over 180 items on GitHub
+    - More than 210 stars, 11 forks
+    - Uses unit testing and integration testing
+- Experience with reverse engineering software
+- Experienced in GNSS and satellite radio tech
+- Experienced using embedded systems
     - RP2040/RP2350, STM32, ESP32, ATMega
     - Embedded Rust, Embassy
 - Amateur Radio operator since 2014
@@ -215,8 +218,9 @@ systems development with electrical engineering components.
     - Self-hosted personal website
     - Working professionally with Linux SBCs
 - Electrical engineering
-    - Prototyping and design of electrical systems/assemblies
+    - Prototyping and design of electrical systems
     - PCB design & EDA (KiCad)
+    - Experience with robotics
     - Skilled at soldering
 - Graphic design hobbyist
     - Logo for the #link("https://kate-editor.org/")[Kate text editor]:
